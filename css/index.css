@@ -1,0 +1,91 @@
+/* Navbar CSS */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 10%;
+    padding: 3%;
+}
+
+nav {
+    width: 100%;
+    padding: 1%;
+    background-color: #373738;
+    padding: 10px;
+}
+
+nav ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+nav li {
+    padding: 10px;
+    list-style: none;
+    color: white;
+}
+
+.myButton {
+    margin: 30px;
+}
+
+.heroImg {
+    height: 600px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 350px;
+    padding-left: 0px;
+}
+
+.heroImg .content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.mySkills {
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.skill {
+    width: 33%;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+@media (max-width: 100px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    .skill {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+/* Footer CSS */
+footer {
+    background-color: #373738;
+    padding: 10px;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer li {
+    padding: 10px;
+    list-style: none;
+    color: white;
+}
